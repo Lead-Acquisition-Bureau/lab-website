@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lead Acquisition Bureau (LAB) is a performance-based lead generation agency specializing in pay-per-call campaigns, Ringba routing, affiliate and buyer management." />
+  <meta name="keywords" content="pay-per-call, lead generation, affiliate marketing, Ringba, TrackDrive, Medicare leads, PingReady" />
+  <meta name="author" content="Lead Acquisition Bureau" />
+  <meta property="og:title" content="Lead Acquisition Bureau (LAB) - Precision Pay-Per-Call Marketing" />
+  <meta property="og:description" content="Precision-calibrated pay-per-call solutions for affiliates and buyers in high-demand verticals." />
+  <meta property="og:image" content="/images/lab-preview.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-username.github.io/lab-website/" />
+  <title>Lead Acquisition Bureau (LAB)</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Lead Acquisition Bureau",
+      "url": "https://leadacquisitionbureau.com",
+      "logo": "https://leadacquisitionbureau.com/images/lab-logo.png",
+      "email": "info@getlab.ai",
+      "description": "LAB is a performance-based marketing agency specializing in pay-per-call lead generation, CRM integration, and call routing via Ringba and TrackDrive.",
+      "sameAs": [
+        "https://www.linkedin.com/company/lead-acquisition-bureau"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@getlab.ai",
+        "contactType": "customer support",
+        "url": "https://leadacquisitionbureau.com/contact"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav role="navigation" aria-label="Main Navigation">
+      <div class="logo">
+        <img src="/images/lab-logo.png" alt="Lead Acquisition Bureau Logo" width="180" height="auto" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#affiliates">Affiliates</a></li>
+        <li><a href="#buyers">Buyers</a></li>
+        <li><a href="#pingready">PingReady</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-label="Intro">
+      <h1>Accelerate Your Lead Flow.<br />Close More Calls.</h1>
+      <p>Performance-Based. Precision-Calibrated. Pay-Per-Call Experts.</p>
+      <a class="cta-button" href="#contact">Book a Discovery Call</a>
+    </section>
+
+    <section id="services" aria-label="Our Services">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="service-card">Pay-Per-Call Campaigns</div>
+        <div class="service-card">Affiliate & Buyer Matchmaking</div>
+        <div class="service-card">Ping Post CRM Integration</div>
+        <div class="service-card">Call Routing Optimization</div>
+      </div>
+    </section>
+
+    <section id="affiliates" aria-label="Affiliate Partners">
+      <h2>For Affiliates</h2>
+      <p>Partner with LAB and get connected to high-performing campaigns in Medicare, Final Expense, ACA, and more.</p>
+      <a class="cta-button" href="#contact">Apply to Join</a>
+    </section>
+
+    <section id="buyers" aria-label="Lead Buyers">
+      <h2>For Buyers</h2>
+      <p>Get TCPA-safe, high-converting calls delivered with precision logic via Ringba & TrackDrive.</p>
+      <a class="cta-button" href="#contact">Start a Campaign</a>
+    </section>
+
+    <section id="pingready" aria-label="PingReady Overview">
+      <h2>PingReady Technology</h2>
+      <p>LAB’s proprietary solution to route live agents in real-time across any CRM or call system.</p>
+      <a class="cta-button" href="#contact">Book a Demo</a>
+    </section>
+
+    <section id="contact" aria-label="Contact Form">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST" aria-label="Contact form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+
+        <input type="hidden" name="_redirect" value="https://your-username.github.io/lab-website/thank-you.html" />
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lead Acquisition Bureau. All rights reserved. | <a href="mailto:info@getlab.ai">info@getlab.ai</a></p>
+  </footer>
+</body>
+</html>
