@@ -3,73 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Lead Acquisition Bureau (LAB) is a performance-based lead generation agency specializing in pay-per-call campaigns, Ringba routing, affiliate and buyer management.">
-  <meta name="keywords" content="pay-per-call, lead generation, affiliate marketing, Ringba, TrackDrive, Medicare leads, PingReady">
-  <meta name="author" content="Lead Acquisition Bureau">
+  <meta name="description" content="Lead Acquisition Bureau (LAB) is a performance-based lead generation agency specializing in pay-per-call campaigns, Ringba routing, affiliate and buyer management." />
+  <meta name="keywords" content="pay-per-call, lead generation, affiliate marketing, Ringba, TrackDrive, Medicare leads, insurance calls" />
+  <meta name="author" content="Lead Acquisition Bureau" />
   <meta property="og:title" content="Lead Acquisition Bureau (LAB) - Precision Pay-Per-Call Marketing" />
-  <meta property="og:description" content="Precision-calibrated pay-per-call solutions for affiliates and buyers in high-demand verticals." />
+  <meta property="og:description" content="Performance-based lead delivery for affiliates and buyers in high-conversion verticals." />
   <meta property="og:image" content="/images/lab-preview.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://leadacquisitionbureau.com/" />
   <title>Lead Acquisition Bureau (LAB)</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="/images/favicon.png" />
 </head>
 <body>
   <header>
-    <nav>
+    <nav role="navigation" aria-label="Main Navigation">
       <div class="logo">
-        <img src="/images/lab-logo.png" alt="Lead Acquisition Bureau Logo">
+        <img src="/images/lab-logo.png" alt="Lead Acquisition Bureau Logo" width="180" height="auto" />
       </div>
       <ul class="nav-links">
         <li><a href="#services">Services</a></li>
         <li><a href="#affiliates">Affiliates</a></li>
         <li><a href="#buyers">Buyers</a></li>
-        <li><a href="#pingready">PingReady</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section class="hero">
+    <section class="hero" aria-label="Intro">
       <h1>Accelerate Your Lead Flow.<br />Close More Calls.</h1>
       <p>Performance-Based. Precision-Calibrated. Pay-Per-Call Experts.</p>
       <a class="cta-button" href="#contact">Book a Discovery Call</a>
     </section>
-    <section id="services">
+
+    <section id="services" aria-label="Our Services">
       <h2>Our Services</h2>
       <div class="grid">
-        <div class="service-card">Pay-Per-Call Campaigns</div>
-        <div class="service-card">Affiliate & Buyer Matchmaking</div>
-        <div class="service-card">Ping Post CRM Integration</div>
-        <div class="service-card">Call Routing Optimization</div>
+        <div class="service-card"><a href="/campaign-management.html">Pay-Per-Call Campaign Management</a></div>
+        <div class="service-card"><a href="/affiliate-buyer-matchmaking.html">Affiliate & Buyer Matchmaking</a></div>
+        <div class="service-card"><a href="/crm-integration.html">CRM Integration & Tracking Support</a></div>
+        <div class="service-card"><a href="/call-routing.html">Call Routing Optimization</a></div>
       </div>
     </section>
-    <section id="affiliates">
+
+    <section id="affiliates" aria-label="Affiliate Partners">
       <h2>For Affiliates</h2>
-      <p>Partner with LAB and get connected to high-performing campaigns in Medicare, Final Expense, ACA, and more.</p>
+      <p>Join LAB’s trusted affiliate network and gain access to premium pay-per-call campaigns across Medicare, Final Expense, ACA, Auto Insurance, and more. We offer real-time reporting, dedicated support, and top-tier payouts. Our goal is to make your traffic profitable and your experience seamless.</p>
       <a class="cta-button" href="#contact">Apply to Join</a>
     </section>
-    <section id="buyers">
+
+    <section id="buyers" aria-label="Lead Buyers">
       <h2>For Buyers</h2>
-      <p>Get TCPA-safe, high-converting calls delivered with precision logic via Ringba & TrackDrive.</p>
+      <p>Get direct, TCPA-compliant calls from high-intent prospects in your vertical. LAB’s advanced routing logic ensures that calls are delivered to your qualified agents when they are most available, increasing conversion rates and ROI. We handle compliance, call tracking, and affiliate partner onboarding so you can focus on closing.</p>
       <a class="cta-button" href="#contact">Start a Campaign</a>
     </section>
-    <section id="pingready">
-      <h2>PingReady Technology</h2>
-      <p>LAB’s proprietary solution to route live agents in real-time across any CRM or call system.</p>
-      <a class="cta-button" href="#contact">Book a Demo</a>
-    </section>
-    <section id="contact">
+
+    <section id="contact" aria-label="Contact Form">
       <h2>Contact Us</h2>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="How can we help?" required></textarea>
+      <form action="https://formspree.io/f/your-form-id" method="POST" aria-label="Contact form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+
+        <input type="hidden" name="_redirect" value="https://leadacquisitionbureau.com/thank-you.html" />
         <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
+
   <footer>
-    <p>&copy; 2025 Lead Acquisition Bureau. All rights reserved. | hello@getlab.ai</p>
+    <p>&copy; 2025 Lead Acquisition Bureau. All rights reserved. | <a href="mailto:info@getlab.ai">info@getlab.ai</a></p>
   </footer>
 </body>
 </html>
